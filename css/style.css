@@ -108,6 +108,8 @@ img {
   color: #404bbf;
 }
 
+/* END Nav */
+
 /* Address */
 
 .address {
@@ -129,6 +131,8 @@ img {
   color: #434455;
   text-decoration: none;
   margin-right: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .address-link:last-child {
