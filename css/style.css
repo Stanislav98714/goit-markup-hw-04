@@ -222,6 +222,20 @@ address :focus {
   clip-path: inset(100%);
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  margin-right: 8px;
+  border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+  background: var(--CLOUD, #F4F4FD);
+
+}
+
 .section-list {
   display: flex;
   list-style: none;
@@ -373,5 +387,7 @@ a {
 
 ul {
   margin: 0;
+  padding: 0;
   list-style: none;
+  display: flex;
 }
