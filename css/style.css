@@ -480,6 +480,52 @@ address :focus {
   font-style: normal;
 }
 
+.flex-footer {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.social-link-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link-icons-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-link-footer:hover {
+  background-color: #31d0aa;
+}
+
+.social-icons-footer {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+}
+
 /* END Footer */
 a {
   text-decoration: none;
