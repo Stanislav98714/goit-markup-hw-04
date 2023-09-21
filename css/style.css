@@ -476,10 +476,6 @@ address :focus {
   font-style: normal;
 }
 
-.flex-footer {
-  display: flex;
-  align-items: baseline;
-}
 
 .social-text {
   font-weight: 500;
@@ -523,11 +519,15 @@ address :focus {
   fill: #f4f4fd;
 }
 
-.footer-container-inner {
-  align-items: baseline;
-  margin-right: 120px;
+.footer-container {
   display: flex;
+  align-items: baseline;
 }
+
+.footer-inner-logo {
+  margin-right: 120px;
+}
+
 
 /* END Footer */
 a {
