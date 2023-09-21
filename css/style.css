@@ -523,7 +523,9 @@ address :focus {
   fill: #f4f4fd;
 }
 
-.footer-container {
+.footer-container-inner {
+  align-items: baseline;
+  margin-right: 120px;
   display: flex;
 }
 
