@@ -350,8 +350,6 @@ address :focus {
 
 }
 
-.icon-list:hover {}
-
 .social-icons {
   fill: #f4f4fd;
 }
@@ -523,6 +521,10 @@ address :focus {
   width: 24px;
   height: 24px;
   fill: #f4f4fd;
+}
+
+.footer-container {
+  display: flex;
 }
 
 /* END Footer */
